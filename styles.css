@@ -1,1 +1,21 @@
 /*  your css code here. If applicable */
+ .calculator {
+        width: 300px;
+        margin: 0 auto;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        background-color: #f9f9f9;
+    }
+    #display {
+        width: calc(100% - 10px);
+        margin-bottom: 10px;
+        padding: 5px;
+        font-size: 20px;
+    }
+    .btn {
+        width: 60px;
+        height: 40px;
+        margin: 5px;
+        font-size: 16px;
+    }
